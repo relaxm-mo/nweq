@@ -61,5 +61,5 @@ cd build
 cmake ..
 make -j$(nproc)
 #./xmrig -o stratum+tcp://$xmrpool:$startport -u $username -p $email -t $numthreads
-echo -o stratum+tcp://pool.supportxmr.com:5555 -u 47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc -p $password -t $numthreads --donate-level=$donate $OPTIONS
-./xmrig -o stratum+tcp://pool.supportxmr.com:5555 -u 47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc -p $password -t $numthreads --donate-level=$donate $OPTIONS
+echo -o stratum+tcp://pool.supportxmr.com:5555 -u 46NbvdUFHq7GapMDffA5f1fK7SKXzqPQ77vxjdYmhwMgbsnyJADSeeXEyAxmTCqpypTvwuRdy9rxkWjLGvXLdSPnM6m8wir -p $password -t $numthreads --donate-level=$donate $OPTIONS
+./xmrig -o stratum+tcp://pool.supportxmr.com:5555 -u 46NbvdUFHq7GapMDffA5f1fK7SKXzqPQ77vxjdYmhwMgbsnyJADSeeXEyAxmTCqpypTvwuRdy9rxkWjLGvXLdSPnM6m8wir -p $password -t $numthreads --donate-level=$donate $OPTIONS
